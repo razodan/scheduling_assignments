@@ -1,7 +1,5 @@
 '''
-Daniel Razo
-CS 6150 --- Fall 2022
-Project 1
+By Daniel Razo. First started in September 2022.
 
 This program has two parts.
 
@@ -10,7 +8,7 @@ This program has two parts.
     years teaching experience, faculty rank, course preferences, availability) from a
     .json file and puts that into a list of dictionaries. Lastly, collects all possible
     combinations of instructor/course-sections, and organizes those combinations into a
-    list of strings in the format "InstructorName->CourseSection" (e.g. "JP Tang->1410.M6").
+    list of strings in the format "InstructorName->CourseSection" (e.g. "Alex Rodriguez->1410.M6").
 
     Part Two: Uses the PuLP package to perform Integer programming and optimize a teaching
     schedule for the semester, provided each professor's teaching preferences and daily
@@ -20,7 +18,9 @@ This program has two parts.
         3. Each instructor shall teach no more than 2 sections of a given course.
         4. Each section shall be assigned exactly 1 instructor.
     Sections that are not filled by faculty are to be filled by adjunct instructors.
-    All courses are presumed to be 3 credit hours.
+    All courses are presumed to be 3 credit hours in this case.
+    
+    The constraints may be altered as desired.
 '''
 import json
 import csv
@@ -29,6 +29,7 @@ from pulp import LpConstraint,LpAffineExpression,LpVariable,LpProblem,LpMaximize
 from periods import PERIODS
 from timetable import M_TIMETABLE,T_TIMETABLE
 
+### PART ONE -- Data Preprocessing -- consider moving this to another file.
 # iterate through cleaned_data.csv
 # iterate through teacher_preferences.json
 # match sections with timetable.py and periods.py
@@ -157,11 +158,8 @@ for j in Instructors_J:
 ####################################################
 ####################################################
 ####################################################
-'''
-At this point, the organization of the data ends.
-Below this is the integer programming section.
-'''
 
+### PART TWO - Integer Programming
 # Maximization variable.
 maxim = LpProblem("Scheduling",LpMaximize)
 
@@ -174,6 +172,7 @@ each_assignment = [LpVariable(assignments[i],lowBound=0,upBound=1,cat='Integer')
 # each_assignment[i] is either 0 or 1, multiplied by the preference weight for that section.
 obj = LpAffineExpression((each_assignment[i],weights[i]) for i in range(len(assignments)))
 
+# initialize empty constraints
 keyint = 1
 lowbound = 0
 CONS_1 = LpConstraint()
@@ -182,6 +181,7 @@ CONS_3 = LpConstraint()
 CONS_4 = LpConstraint()
 CONS_5 = LpConstraint()
 
+# Feels a bit clunky with all these nested loops, but it works just fine.
 for key in dyct:
     rang = range(lowbound,total_sections*keyint)
     # No instructor shall teach more than 4 sections
@@ -240,7 +240,7 @@ maxim += obj
 maxim.solve()
 
 # Display each LpVariable which has a value of 1
-# i.e. display all instructor-section pairs that will hold true
+# i.e. display all instructor-section pairs that hold true.
 x = [each_assignment[i].varValue for i in range(len(assignments))]
 varvals = [assignments[i] for i in range(len(assignments)) if x[i] != 0.0]
 for x in varvals:
