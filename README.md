@@ -1,5 +1,6 @@
 # scheduling_assignments
-by Daniel Razo
+by Daniel Razo.
+
 Uses integer programming via PuLP to schedule teaching assignments optimally.
 
 Information must be parsed in a particular way. Details to be added later.
