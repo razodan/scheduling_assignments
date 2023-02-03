@@ -72,12 +72,6 @@ for line in Courses_I:
                     newentry = line["Course"] + '.' + x[0]
                     Sections_K.append(newentry)
 
-prof = []
-asso = []
-assi = []
-lect = []
-org_by_years = []
-
 file = open("teacher_preferences.json")
 Instructors_J = json.load(file)
 for i in range(len(Instructors_J)):
