@@ -5,7 +5,7 @@ Uses integer programming via PuLP to schedule teaching assignments optimally.
 
 Information must be parsed in a particular way. Details to be added later.
 This was originally done as project 1 for CS 6150 Advanced Algorithms at Utah Valley University during Fall 2022.
-In view of academic honesty, the original project code is not included. Instead, this code has been altered to assign professors and TA's to courses and TA assignments.
+In view of academic honesty, the original project code is not included. Instead, this code has been altered to assign professors to courses. It will be further expanded to assign TA's to TA assignments.
 
 ## Things to note:
 - Teacher_preferences.json is a json of all instructors with their name, number of years teaching, number of credit hours requested, faculty rank, teaching preferences, days available, and times of day available. The teaching preferences are ranked as preference_1, preference_2, and preference_3. Preference_1 is such that the instructor very much wants to teach that course. Preference_2 is such that the instructor is fine with teaching that course. Preference_3 is that the instructor is able to teach that course, but perhaps would prefer not to. Then, all courses NOT listed under any preference are courses that particular professor cannot teach.
