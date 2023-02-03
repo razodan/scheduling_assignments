@@ -1,0 +1,378 @@
+[
+	{
+		"name": "Abraham Teng",
+		"numYearsTeaching": 20,
+		"numHoursRequested": 9,
+		"facultyRank": "associate",
+		"preference_1": ["2810", "2300", "3320"],
+		"preference_2": ["1400"],
+		"preference_3": ["6400", "ECE3750", "ENGR2010", "ENGR2030"],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["afternoon"]
+		}
+	},
+	{
+		"name": "Brian Durney",
+		"numYearsTeaching": 15,
+		"numHoursRequested": 9,
+		"facultyRank": "associate",
+		"preference_1": ["3540", "3680", "3060"],
+		"preference_2": [],
+		"preference_3": ["2550", "3270", "496R", "491R", "3250", "1400", "339R"],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Brian Knaeble",
+		"numYearsTeaching": 5,
+		"numHoursRequested": 9,
+		"facultyRank": "assistant",
+		"preference_1": ["2420", "3310", "3320"],
+		"preference_2": ["1400", "4470", "2300"],
+		"preference_3": ["1410"],
+		"times": {
+			"days": ["M", "W"],
+			"timeOfDay": ["morning", "afternoon", "evening"]
+		}
+	},
+	{
+		"name": "Bruce Embry",
+		"numYearsTeaching": 5,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["1030", "1400", "1410", "2810"],
+		"preference_2": ["2300", "2370", "2420", "2550"],
+		"preference_3": [],
+		"times": {
+			"days": ["M", "T", "W", "R", "F"],
+			"timeOfDay": ["morning", "afternoon"]
+		}
+	},
+	{
+		"name": "Chuck Knutson",
+		"numYearsTeaching": 4,
+		"numHoursRequested": 9,
+		"facultyRank": "associate",
+		"preference_1": ["2810", "3450", "305G"],
+		"preference_2": ["2690", "2810", "489R"],
+		"preference_3": ["4450"],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Craig Sharp",
+		"numYearsTeaching": 5,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["1410", "2550", "1400", "DGM1110"],
+		"preference_2": ["305G", "3370"],
+		"preference_3": ["3250", "3260", "3370", "2600", "2550"],
+		"times": {
+			"days": ["M", "T", "W", "R", "F"],
+			"timeOfDay": ["morning", "afternoon", "evening"],
+			"notes": "He wants 10-12 for the morning mon-thur, and afternoons 1-5 mon-fri"
+		}
+	},
+	{
+		"name": "David Wagstaff",
+		"numYearsTeaching": 7,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["3380", "4660", "4690", "2300"],
+		"preference_2": ["2550", "2420", "3660", "3240", "3310", "3320", "4470", "4880", "6150"],
+		"preference_3": [
+			"3060",
+			"4900",
+			"2450",
+			"489R",
+			"479R",
+			"1410",
+			"3370",
+			"496R",
+			"2370",
+			"2600",
+			"2690",
+			"305G",
+			"3270",
+			"3450",
+			"3520",
+			"3670",
+			"3800",
+			"4230",
+			"4440",
+			"4450"
+		],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["afternoon"]
+		}
+	},
+	{
+		"name": "Frank Jones",
+		"numYearsTeaching": 1,
+		"numHoursRequested": 9,
+		"facultyRank": "assistant",
+		"preference_1": ["2300", "2420", "2810"],
+		"preference_2": ["4380", "3310", "2370"],
+		"preference_3": [
+			"1030",
+			"1400",
+			"1410",
+			"281R",
+			"291R",
+			"3060",
+			"3240",
+			"3250",
+			"3450",
+			"3670",
+			"3680",
+			"4480",
+			"4490",
+			"489R",
+			"6730"
+		],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["morning", "afternoon"]
+		}
+	},
+	{
+		"name": "George Rudolph",
+		"numYearsTeaching": 6,
+		"numHoursRequested": 15,
+		"facultyRank": "professor",
+		"preference_1": ["6470", "4470", "4470", "6600", "6610"],
+		"preference_2": ["6150", "2420", "2370", "3250"],
+		"preference_3": [
+			"1400",
+			"1410",
+			"2300",
+			"2600",
+			"2690",
+			"2810",
+			"305G",
+			"3240",
+			"3310",
+			"3320",
+			"3370"
+		],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Greg Mortensen",
+		"numYearsTeaching": 2,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["6100", "4380", "4380", "3310"],
+		"preference_2": [],
+		"preference_3": ["3660", "2690", "3670", "2550", "2600", "1400", "3520"],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "JP Tang",
+		"numYearsTeaching": 8,
+		"numHoursRequested": 9,
+		"facultyRank": "professor",
+		"preference_1": ["1410", "3060", "4230"],
+		"preference_2": ["3250", "1400", "2450"],
+		"preference_3": ["4230", "489R", "6610", "6600", "6510"],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Ken Jenson",
+		"numYearsTeaching": 4,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["4690", "3380", "3660", "2550"],
+		"preference_2": ["4660", "3410"],
+		"preference_3": [
+			"1410",
+			"3370",
+			"3410",
+			"4400",
+			"4550",
+			"4880",
+			"2550",
+			"3660",
+			"4900",
+			"2370"
+		],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["morning", "afternoon"]
+		}
+	},
+	{
+		"name": "Larry Zeng",
+		"numYearsTeaching": 3,
+		"numHoursRequested": 9,
+		"facultyRank": "associate",
+		"preference_1": ["2300", "4470", "6150"],
+		"preference_2": ["3310", "3240", "4480", "6700"],
+		"preference_3": [
+			"1400",
+			"1410",
+			"2420",
+			"4700",
+			"4710",
+			"3320",
+			"6470",
+			"6480",
+			"3800",
+			"3810"
+		],
+		"times": {
+			"days": ["T", "R"],
+			"timeOfDay": ["morning", "afternoon", "evening"]
+		}
+	},
+	{
+		"name": "Lynn Thackery",
+		"numYearsTeaching": 6,
+		"numHoursRequested": 12,
+		"facultyRank": "lecturer",
+		"preference_1": ["3260", "3250", "3450", "6300"],
+		"preference_2": ["2810", "2420", "4400", "2450"],
+		"preference_3": ["1400", "1410", "1030", "2550", "3370"],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["morning"]
+		}
+	},
+	{
+		"name": "Neil Harrison",
+		"numYearsTeaching": 21,
+		"numHoursRequested": 9,
+		"facultyRank": "professor",
+		"preference_1": ["3370", "6500", "2370"],
+		"preference_2": ["4230", "3450", "3240"],
+		"preference_3": [
+			"1400",
+			"1410",
+			"2300",
+			"2420",
+			"2450",
+			"2600",
+			"3270",
+			"3310",
+			"3320",
+			"3520",
+			"4400",
+			"4550",
+			"305G"
+		],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["morning", "afternoon"],
+			"notes": "He only wants mornings on Tuesdays and Wednesdays"
+		}
+	},
+	{
+		"name": "Peter Aldous",
+		"numYearsTeaching": 2,
+		"numHoursRequested": 9,
+		"facultyRank": "assistant",
+		"preference_1": ["1400", "2300", "4450"],
+		"preference_2": ["4230", "3240", "2420"],
+		"preference_3": [
+			"3370",
+			"3100",
+			"4380",
+			"439R",
+			"1410",
+			"2250",
+			"2370",
+			"4490",
+			"2810",
+			"3060",
+			"3250",
+			"3270",
+			"3310",
+			"489R",
+			"6150",
+			"6510",
+			"6600",
+			"6610"
+		],
+		"times": {
+			"days": ["M", "W", "F"],
+			"timeOfDay": ["morning", "afternoon"]
+		}
+	},
+	{
+		"name": "Raza Sanati",
+		"numYearsTeaching": 15,
+		"numHoursRequested": 9,
+		"facultyRank": "professor",
+		"preference_1": [],
+		"preference_2": [],
+		"preference_3": [
+			"2420",
+			"3520",
+			"281R",
+			"481R",
+			"6620",
+			"4620",
+			"1030",
+			"4500",
+			"439R",
+			"1400"
+		],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Sayeed Sajal",
+		"numYearsTeaching": 2,
+		"numHoursRequested": 9,
+		"facultyRank": "assistant",
+		"preference_1": ["3100", "2690", "4670"],
+		"preference_2": ["2600"],
+		"preference_3": ["3320"],
+		"times": {
+			"days": [],
+			"timeOfDay": []
+		}
+	},
+	{
+		"name": "Steven Lyde",
+		"numYearsTeaching": 1,
+		"numHoursRequested": 9,
+		"facultyRank": "assistant",
+		"preference_1": ["4490", "4450", "4450"],
+		"preference_2": ["4380", "4230", "3250", "3310", "3240", "3060", "2420", "2300"],
+		"preference_3": ["3450", "3370", "2810", "2450", "2370", "1410", "1400", "1030"],
+		"times": {
+			"days": ["M", "T", "W", "R", "F"],
+			"timeOfDay": ["morning"]
+		}
+	},
+	{
+		"name": "Zann Anderson",
+		"numYearsTeaching": 3,
+		"numHoursRequested": 9,
+		"preference_1": ["1410", "6800", "1410"],
+		"preference_2": ["1400", "3410", "1410"],
+		"preference_3": ["3060", "2300", "3240"],
+		"times": {
+			"days": ["M", "T", "W", "R"],
+			"timeOfDay": ["morning", "afternoon"]
+		}
+	}
+]
