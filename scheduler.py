@@ -10,7 +10,7 @@ This program has two parts.
     combinations of instructor/course-sections, and organizes those combinations into a
     list of strings in the format "InstructorName->CourseSection" (e.g. "Alex Rodriguez->1410.M6").
 
-    Part Two: Uses the PuLP package to perform Integer programming and optimize a teaching
+    Part Two: Uses the PuLP package to perform integer programming and optimize a teaching
     schedule for the semester, provided each professor's teaching preferences and daily
     availability, as well as a set of constraints, which are as follows:
         1. Each instructor shall teach no less than 3 sections.
@@ -19,7 +19,6 @@ This program has two parts.
         4. Each section shall be assigned exactly 1 instructor.
     Sections that are not filled by faculty are to be filled by adjunct instructors.
     All courses are presumed to be 3 credit hours in this case.
-    
     The constraints may be altered as desired.
 '''
 import json
